@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(37, 37, 37);
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 110vh;
+    background-color: yellow;
+    margin: 0 auto;
+}
+.container{
+    width: 80%;
+    height: 95%;
+}
+header{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+    font-size: 25px;
+}
+main{
+    margin-top: 80px;
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+img{
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+form{    
+    width: 80%;
+    margin: 0 auto;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-color: rgb(153, 112, 112);
+}
+.inp{
+    padding: 7px 0;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(123, 122, 122);
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+}
+.lbl{
+    font-size: 20px;
+    color: #B9B9B8;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.name{
+    display: flex;
+    margin-top: 25px;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 2px solid #585858;
+    margin-bottom: 10px;
+} 
+.nameinp{
+    width: 45%;
+    height: 100%;
+}
+.bio{
+    margin-top: 50px;
+}
+.textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(123, 122, 122);
+}
+footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.ankers{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    font-size: 20px;
+    color: #585858;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    color: black;
+    transition: ease 0.7s;
+    transform: scale(1.1);
+}
+.none{
+    border: none;
+}
